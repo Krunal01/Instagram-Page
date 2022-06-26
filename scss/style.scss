@@ -76,6 +76,34 @@ $transition :all 0.4s ease-in-out;
 }
 
 
+.contacts{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.9rem;
+}
+.contact_gap{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contact_photo{
+    width: 22%;
+}
+.contact_details{
+    flex: 1;
+}
+.contact-name{  
+    font-size: 1.2rem;
+}
+.contact_chat-icon{
+    width: 150%;
+}
+
 .main{
     background-color: $backgroundColor;
     height: 100%;
