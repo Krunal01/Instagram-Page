@@ -14,6 +14,7 @@ $transition :all 0.4s ease-in-out;
     box-sizing: border-box;
     transition: $transition;
     font-family: $font-family;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -110,9 +111,119 @@ $transition :all 0.4s ease-in-out;
     background-color: $backgroundColor;
     height: 100%;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2.5rem;
+    gap: 3rem;
+}
+.main_search{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    // padding: 2.5em;
+}
+.main_search_name{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    input{
+        border: 2px;
+        border-radius: 18px;
+        height: 3.5em;
+        width: 18em;
+        padding: 1.1em ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 6em;
+        padding-left: 3em;
+    }
     
+    .searchvoice{
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+    }
+    .searchtag{
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    }
+}
+button{
+       display: flex;
+        align-items: center;
+        justify-content:space-around;
+        border: 2px;
+        border-radius: 10px;
+        height: 3.5em;
+        width: 12em;
+        
+        background: linear-gradient(60deg,#1A50FF,#D96FF8, );
+        font-weight: bold;
+        color: white;
+}
+.story_title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    // padding: 2.5rem;
+}
+.main_story_stories{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.main_story_scroll{
+    font-size: 1rem;
+    font-weight: bold;
+    color: $accentColor;
 }
 
+.story_image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.static_story {
+    padding-right: 1rem;
+    white-space: nowrap;
+}
+.story_image_name{
+    font-weight: bold;
+}
+.main_story {
+    display: flex;
+}
+.stories{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    // padding: 1.5rem;
+}
+
+.static_story_import{
+    border: 2px dotted black;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    // margin-right: 1rem;
+}
+
+.story_container{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
 .follow-list{
     width: 20%;
     height: 100%;
