@@ -59,7 +59,7 @@ body {
 .sidebar {
   background-color: #fff;
   width: 20%;
-  height: 100%;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,7 +73,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem;
+  padding: 1.4rem;
+  padding-bottom: 0px;
 }
 
 .profile {
@@ -89,7 +90,7 @@ body {
 }
 
 .profile_photo {
-  width: 20%;
+  width: 26%;
 }
 
 .profile_person-details {
@@ -135,7 +136,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 1rem;
-  font-size: 1.2rem;
+  font-size: .8rem;
   font-weight: bold;
 }
 
@@ -144,11 +145,27 @@ body {
 }
 
 .nav-links_icon {
-  width: 10%;
+  width: 7%;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  height: 19rem;
 }
 
 .data_of_contact {
-  margin: 0.5rem;
+  margin: .4rem 0rem;
   left: 0;
   top: 0;
 }
@@ -157,13 +174,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 0.9rem;
+  gap: 1rem;
 }
 
 .contact_gap {
@@ -174,11 +191,20 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 1.2rem;
+  gap: .9rem;
+  height: 19rem;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0rem .5rem;
+}
+
+.contact_gap::-webkit-scrollbar {
+  display: none;
 }
 
 .contact_photo {
-  width: 22%;
+  width: 2.9rem;
 }
 
 .contact_details {
@@ -187,12 +213,16 @@ body {
           flex: 1;
 }
 
+.contact_details small {
+  font-size: .8rem;
+}
+
 .contact-name {
-  font-size: 1.2rem;
+  font-size: .9rem;
 }
 
 .contact_chat-icon {
-  width: 150%;
+  width: 125%;
 }
 
 .main {
@@ -261,13 +291,13 @@ body {
 
 .main_search_name .searchvoice {
   position: absolute;
-  top: 1rem;
+  top: 1.6rem;
   right: 2rem;
 }
 
 .main_search_name .searchtag {
   position: absolute;
-  top: 1rem;
+  top: 1.6rem;
   left: 1rem;
 }
 
@@ -346,7 +376,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 1rem;
+  gap: 0.7rem;
   width: 100%;
   overflow-x: auto;
 }
