@@ -460,8 +460,49 @@ width: 1.6rem;
 }
 .aside_actions-Decline{
     margin: .9rem;
+    color: $lightFontColor;
+}
+//suggestions bar
+.suggestion_bar{
+    height: 21rem;
+}
+//active follower
+.aside_active-settings{
+    margin:1rem;
+}
+.active_followers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+    margin: .4rem;
+}
+.active_followers-image{
+    
+    display: flex;
+    flex-direction: row;    
+}
+.active_followers-imagesize{
+    width: 2rem;
+}
+.active_followers-now{
+    display: flex;
+    align-items: baseline;
+    gap: .7rem;
+}
+.active_followers-para{
+    color: $lightFontColor;
 }
 
-// .aside_profile-actions{
-//     gap: 1rem;
-// }
+//aside settings
+.aside_settings{
+    font-size: .7rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: $lightFontColor;  
+    margin: .4rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem; 
+}

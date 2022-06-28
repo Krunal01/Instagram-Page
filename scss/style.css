@@ -635,5 +635,78 @@ body {
 
 .aside_actions-Decline {
   margin: .9rem;
+  color: #A5A3A9;
+}
+
+.suggestion_bar {
+  height: 21rem;
+}
+
+.aside_active-settings {
+  margin: 1rem;
+}
+
+.active_followers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: .7rem;
+  margin: .4rem;
+}
+
+.active_followers-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.active_followers-imagesize {
+  width: 2rem;
+}
+
+.active_followers-now {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  gap: .7rem;
+}
+
+.active_followers-para {
+  color: #A5A3A9;
+}
+
+.aside_settings {
+  font-size: .7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #A5A3A9;
+  margin: .4rem;
+  margin-top: 3rem;
+  margin-bottom: 0rem;
 }
 /*# sourceMappingURL=style.css.map */
