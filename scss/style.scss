@@ -392,10 +392,21 @@ width: 1.6rem;
 }
 
 .aside{
-    width: 20%;
-    height: 100%;
+    // width: 20%;
+    // height: 100%;
+    // background-color: $whiteColor;
+    // margin: .2rem;
     background-color: $whiteColor;
-    margin: .2rem;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // gap: 2.5rem;
+    align-items: center;
+    padding: 1.4rem;
+    // padding-bottom: 0px;
+
 }
 .request{
     display: flex;
@@ -408,6 +419,7 @@ width: 1.6rem;
     // justify-content: space-between;
     align-items: center;
     gap: .7rem;    
+    margin-left: 1.2rem;
 }
 .aside_request_count{
     color: $accentColor;
@@ -436,9 +448,20 @@ width: 1.6rem;
 
 .aside_actions{
     display: flex;
-    justify-content: space-around;
+    justify-content:flex-start;
     align-items: center;
+    // width: 100%;
+    font-weight: bold;
+    margin-left: 4rem;
+    height: 1.6rem;
 }
 .aside_actions-accept{
     color: $accentColor;
 }
+.aside_actions-Decline{
+    margin: .9rem;
+}
+
+// .aside_profile-actions{
+//     gap: 1rem;
+// }
