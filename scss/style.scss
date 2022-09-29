@@ -15,9 +15,11 @@ $transition :all 0.4s ease-in-out;
     transition: $transition;
     font-family: $font-family;
     scroll-behavior: smooth;
+    
 }
 body {
     overflow-y: hidden;
+    // user-select: none;
 }
 
 .btn{
@@ -600,3 +602,7 @@ padding: 0rem .5rem;
     // border-top: 2px dotted $lightFontColor;
 }
 
+// media query
+// @media screen (max-width : 412px) {
+    
+// }
