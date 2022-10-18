@@ -209,6 +209,7 @@ body {
     padding: 2.5rem;
     gap: 3rem;
     overflow-y: auto;
+    overflow-x: hidden;
     // &::-webkit-scrollbar-track {
     //     display: block;
     //     width: 2px;
@@ -218,6 +219,9 @@ body {
     //     width: 2px;
     // }
 }
+// .main::-webkit-scrollbar{
+//     display: none;
+// }
 .main_search{
     display: flex;
     justify-content: space-between;
@@ -470,6 +474,8 @@ width: 1.6rem;
     align-items: center;
     padding: 1.4rem;
     // padding-bottom: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 
 }
 .request{
