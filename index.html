@@ -9,7 +9,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&family=Poppins:ital,wght@0,200;0,400;1,600&display=swap"
         rel="stylesheet">
+        <script src="https://use.fontawesome.com/81350fc649.js"></script> 
     <link rel="stylesheet" href="./scss/style.css">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
 </head>
 
 <body>
@@ -42,10 +47,13 @@
                 </div>
             </div>
             <ul class="nav-links"> <!-- nav -->
-                <li class="nav-link-active"> <img src="./images/icons/send.svg" alt="" class="nav-links_icon"> <section class="nav-explore">Explore</section></li>
+                <!-- <li class="nav-link-active"> <img src="./images/icons/send.svg" alt="" class="nav-links_icon"> <section class="nav-explore">Explore</section></li> -->
+                <li class="nav-link-active"> <img src="./images/icons/home.svg" alt="" class="nav-links_icon"> Home</li>
+                <li class="nav-link-active"> <img src="./images/icons/Explore.svg" alt="" class="nav-links_icon"> Explore</li>
+                <li class="nav-link-active"> <img src="./images/icons/Stroke 454.svg" alt="" class="nav-links_icon"> My Favorites</li>
                 <li class="nav-link-active"> <img src="./images/icons/send.svg" alt="" class="nav-links_icon"> Direct</li>
-                <li class="nav-link-active"> <img src="./images/icons/send.svg" alt="" class="nav-links_icon"> Contact Us</li>
-                <li class="nav-link-active"> <img src="./images/icons/send.svg" alt="" class="nav-links_icon"> Help</li>
+                <li class="nav-link-active"> <img src="./images/icons/Stats.svg" alt="" class="nav-links_icon"> Stats</li>
+                <li class="nav-link-active"> <img src="./images/icons/Setting.svg" alt="" class="nav-links_icon"> Settings</li>
             </ul>
             <!-- <h4>contacts</h4> -->
             <div class="contacts"> <!-- contacts -->
@@ -282,19 +290,23 @@
                                     <small class="post_username">@july</small>
                                 </div>
                             </div>
-                            ::
+                            <img src="./images/icons/3dot.svg">
                         </div>
 
 
                         <div class="post_images">
-                            <img src="https://images.unsplash.com/photo-1653474970118-2afaa9f6aab3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                            <!-- <img src="https://images.unsplash.com/photo-1653474970118-2afaa9f6aab3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" -->
+                                <!-- alt="" srcset=""> -->
+                            <!-- <img src="https://images.unsplash.com/photo-1653474970118-2afaa9f6aab3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
                                 alt="" srcset="">
                             <img src="https://images.unsplash.com/photo-1653474970118-2afaa9f6aab3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
                                 alt="" srcset="">
                             <img src="https://images.unsplash.com/photo-1653474970118-2afaa9f6aab3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                                alt="" srcset="">
-                            <img src="https://images.unsplash.com/photo-1653474970118-2afaa9f6aab3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                                alt="" srcset="">
+                                alt="" srcset=""> -->
+                                <img src="./images/River.svg">
+                                <img src="./images/Sea.svg">
+                                <img src="./images/Hill.svg">
+                                <img src="./images/Nature.svg">
                         </div>
                         <div class="description">
                             <div class="post_content">Valdez, Alaska Located near the head of a deep fjord in Prince William Sound, Valdez is a mix of tidewater glaciers, rainforests, and majestic mountains, wildlife on both land and sea and so much more. Valdez offers unparalleled natural scenery that is matched only by the abundant activities offered throughout the year.</div>
@@ -309,12 +321,12 @@
                                         alt="">
                                     <div class="post_two-desc">Like</div>
                                 </div>
-                                <div class="post_desc-image"><img src="./images/icons/Vector 348.svg" class="post_save"
+                                <div class="post_desc-image"><img src="./images/icons/Comment.svg" class="post_save"
                                         alt="">
                                     <div class="post_two-desc">Comment</div>
                                 </div>
                             </div>
-                            <img src="./images/icons/Vector 348.svg" class="post_save" alt="">
+                            <img src="./images/icons/bookmark.svg" class="post_save" alt="">
                         </div>
                     </div>
 
@@ -354,6 +366,18 @@
                             <div class="aside_actions-Decline">Decline</div>
                         </div>
                     </div>
+                    <!-- <div class="aside_profile-actions">
+                        <div class="aside_profile">
+                            <img src="./images/avatar1.png" class="aside_profile-image" alt="">
+                            <div class="aside_profile-text">
+                                Lorem ipsum dolor sit amet.
+                            </div>
+                        </div>
+                        <div class="aside_actions">
+                            <div class="aside_actions-accept">Accept</div>
+                            <div class="aside_actions-Decline">Decline</div>
+                        </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -370,7 +394,7 @@
                                 <small>address=china</small>
                             </div>
                             <div class="contact_chat">
-                                <img src="./images/icons/send.svg" class="contact_chat-icon" alt="">
+                                <img src="./images/icons/user-plus.svg" class="contact_chat-icon" alt="">
                             </div>
                         </li>
                         <li class="contact">
@@ -381,7 +405,7 @@
                                 <small>address=china</small>
                             </div>
                             <div class="contact_chat">
-                                <img src="./images/icons/send.svg" class="contact_chat-icon" alt="">
+                                <img src="./images/icons/user-plus.svg" class="contact_chat-icon" alt="">
                             </div>
                         </li>
                         <li class="contact">
@@ -392,7 +416,7 @@
                                 <small>address=china</small>
                             </div>
                             <div class="contact_chat">
-                                <img src="./images/icons/send.svg" class="contact_chat-icon" alt="">
+                                <img src="./images/icons/user-plus.svg" class="contact_chat-icon" alt="">
                             </div>
                         </li>
                         <li class="contact">
@@ -403,7 +427,7 @@
                                 <small>address=china</small>
                             </div>
                             <div class="contact_chat">
-                                <img src="./images/icons/send.svg" class="contact_chat-icon" alt="">
+                                <img src="./images/icons/user-plus.svg" class="contact_chat-icon" alt="">
                             </div>
                         </li>
                         <li class="contact">
@@ -414,7 +438,7 @@
                                 <small>address=china</small>
                             </div>
                             <div class="contact_chat">
-                                <img src="./images/icons/send.svg" class="contact_chat-icon" alt="">
+                                <img src="./images/icons/user-plus.svg" class="contact_chat-icon" alt="">
                             </div>
                         </li>
                         <li class="contact">
@@ -425,7 +449,7 @@
                                 <small>address=china</small>
                             </div>
                             <div class="contact_chat">
-                                <img src="./images/icons/send.svg" class="contact_chat-icon" alt="">
+                                <img src="./images/icons/user-plus.svg" class="contact_chat-icon" alt="">
                             </div>
                         </li>
                         <li class="contact">
@@ -436,7 +460,7 @@
                                 <small>address=china</small>
                             </div>
                             <div class="contact-chat">
-                                <img src="./images/icons/send.svg" class="contact_chat-icon" alt="">
+                                <img src="./images/icons/user-plus.svg" class="contact_chat-icon" alt="">
                             </div>
                         </li>
                     </ul>
