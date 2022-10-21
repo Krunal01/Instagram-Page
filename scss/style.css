@@ -7,6 +7,10 @@
   transition: all 0.4s ease-in-out;
   font-family: "Nunito Sans", sans-serif;
   scroll-behavior: smooth;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 body {
@@ -26,7 +30,7 @@ body {
   cursor: pointer;
   padding: 1.2rem;
   border-radius: 1rem;
-  gap: .5rem;
+  gap: 1.3rem;
 }
 
 .btn-primary {
@@ -74,6 +78,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   padding: 1.4rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
 }
 
 .profile {
@@ -341,7 +351,7 @@ body {
   border: 2px;
   border-radius: 18px;
   height: 4.5em;
-  width: 18em;
+  width: 25em;
   padding: 1.1em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -367,6 +377,11 @@ body {
   position: absolute;
   top: 1.6rem;
   left: 1rem;
+}
+
+.add {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 .story_title {
@@ -654,7 +669,7 @@ body {
 
 .aside {
   background-color: #fff;
-  width: 22%;
+  width: 20%;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;

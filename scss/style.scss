@@ -15,6 +15,8 @@ $transition :all 0.4s ease-in-out;
     transition: $transition;
     font-family: $font-family;
     scroll-behavior: smooth;
+    user-select: none;
+
 }
 body {
     overflow-y: hidden;
@@ -30,7 +32,7 @@ body {
     cursor: pointer;
     padding: 1.2rem;
     border-radius: 1rem;  
-    gap: .5rem;
+    gap: 1.3rem;
 }
 .btn-primary{
     background-color: $accentColor;
@@ -67,11 +69,12 @@ body {
     align-items: center;
     padding: 1.4rem;
     // padding-bottom: 0px;
-    // overflow-y: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 
-        // &::-webkit-scrollbar{
-        //     display: none;
-        // }
+        &::-webkit-scrollbar{
+            display: none;
+        }
 }
 .profile{
     display: flex;
@@ -256,7 +259,7 @@ body {
         border: 2px;
         border-radius: 18px;
         height: 4.5em;
-        width: 18em;
+        width: 25em;
         padding: 1.1em ;
         display: flex;
         align-items: center;
@@ -276,6 +279,10 @@ body {
         top: 1.6rem;
         left: 1rem;
     }
+}
+.add{
+    height: 1.5rem;
+    width: 1.5rem;
 }
 // button{
 //        display: flex;
@@ -497,7 +504,7 @@ width: 1.6rem;
     // background-color: $whiteColor;
     // margin: .2rem;
     background-color: $whiteColor;
-    width: 22%;
+    width: 20%;
     height: 100vh;
     display: flex;
     flex-direction: column;
