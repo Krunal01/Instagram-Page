@@ -567,6 +567,11 @@ width: 1.6rem;
 .aside_profile-image{
     width: 3rem;
 }
+.aside_profile-text{
+    display: flex;
+    flex-direction: column;
+    // gap: 1;
+}
 
 .aside_actions{
     display: flex;
