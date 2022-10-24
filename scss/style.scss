@@ -572,7 +572,15 @@ width: 1.6rem;
     flex-direction: column;
     // gap: 1;
 }
-
+.aside_profile-actions{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+}
+#action1{
+    margin-bottom: 1rem;
+}
 .aside_actions{
     display: flex;
     justify-content:flex-start;
@@ -623,6 +631,8 @@ padding: 0rem .5rem;
     padding: 1rem;
     border-top: 2px dotted $lightFontColor;
     border-bottom: 2px dotted $lightFontColor;
+    background-color: #F9F9F9;
+    border-radius: 4px;
 }
 .active_followers-image{
     
@@ -636,11 +646,40 @@ padding: 0rem .5rem;
 }
 .active_followers-imagesize{
     width: 2rem;
-    // position: relative;
+    position: relative;
+    // left: 0;
+    margin-left: -85px;
+}
+#b{
+    position: absolute;
+    left: 25px;
+}
+#c{
+    position: absolute;
+    left: 45px;
+}
+#d{
+    position: absolute;
+    left: 65px;
+}
+#e{
+    position: absolute;
+    left: 85px;
+}
+#f{
+    position: absolute;
+    left: 105px;
+}
+#g{
+    position: absolute;
+    left: 125px;
+}
+#h{
+    position: absolute;
+    left: 145px;
 }
 // #2{
-//     position: absolute;
-//     left: -10px;
+//     margin-left: 0.5rem;
 // }
 .active_followers-now{
     display: flex;
@@ -649,6 +688,12 @@ padding: 0rem .5rem;
 }
 .active_followers-para{
     color: $lightFontColor;
+}
+.onek{
+    font-size: 2rem;
+}
+#onekfollow{
+    font-size: medium;
 }
 
 //aside settings
