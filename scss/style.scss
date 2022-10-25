@@ -218,7 +218,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    // padding-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+#hsix{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    // padding-top: 1rem;
+    // margin-bottom: 1rem;
+
+
 }
 .main{
     background-color: $backgroundColor;
@@ -598,8 +607,13 @@ width: 1.6rem;
     color: $lightFontColor;
 }
 //suggestions bar
+.suggestions{
+    border-bottom: 2px dotted $lightFontColor;
+    
+}
 .suggestion_bar{
     height: 22rem;
+    margin-bottom: 1rem;
 }
 .suggestions_contact_gap{
 display: flex;
@@ -627,12 +641,10 @@ padding: 0rem .5rem;
     justify-content: center;
     align-items: center;
     font-size: .7rem;
-    margin: -1.6rem;
+    margin-top:  -7px;
     padding: 1rem;
-    border-top: 2px dotted $lightFontColor;
-    border-bottom: 2px dotted $lightFontColor;
-    background-color: #F9F9F9;
-    border-radius: 4px;
+    background-color: #E8E8EA;
+    border-radius: 1.5rem;
 }
 .active_followers-image{
     
@@ -642,7 +654,7 @@ padding: 0rem .5rem;
     // &:nth-child(2){
     //     position: absolute;
     //     left: -10px;
-    // }   
+    // }   F9F9F9;
 }
 .active_followers-imagesize{
     width: 2rem;
@@ -704,9 +716,13 @@ padding: 0rem .5rem;
     flex-direction: column;
     color: $lightFontColor;  
     margin: .4rem;
-    margin-top: 3rem;
+    margin-top: 25px;
     margin-bottom: 0rem; 
-    // border-top: 2px dotted $lightFontColor;
+    border-top: 2px dotted $lightFontColor;
+    align-items: center;
+}
+.aside_settings_para{
+margin-top: 1rem;
 }
 
 // media query

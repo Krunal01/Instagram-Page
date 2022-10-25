@@ -299,6 +299,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 1rem;
+}
+
+#hsix {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main {
@@ -806,8 +817,13 @@ body {
   color: #A5A3A9;
 }
 
+.suggestions {
+  border-bottom: 2px dotted #A5A3A9;
+}
+
 .suggestion_bar {
   height: 22rem;
+  margin-bottom: 1rem;
 }
 
 .suggestions_contact_gap {
@@ -850,12 +866,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-size: .7rem;
-  margin: -1.6rem;
+  margin-top: -7px;
   padding: 1rem;
-  border-top: 2px dotted #A5A3A9;
-  border-bottom: 2px dotted #A5A3A9;
-  background-color: #F9F9F9;
-  border-radius: 4px;
+  background-color: #E8E8EA;
+  border-radius: 1.5rem;
 }
 
 .active_followers-image {
@@ -946,7 +960,15 @@ body {
           flex-direction: column;
   color: #A5A3A9;
   margin: .4rem;
-  margin-top: 3rem;
+  margin-top: 25px;
   margin-bottom: 0rem;
+  border-top: 2px dotted #A5A3A9;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aside_settings_para {
+  margin-top: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
